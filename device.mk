@@ -350,16 +350,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
 # Touch
-PRODUCT_PACKAGES += \
-    TouchGestures \
-    vendor.lineage.touch-service.RM6785
+#PRODUCT_PACKAGES += \
+#    TouchGestures \
+#    vendor.lineage.touch-service.RM6785
 
 # Update
 AB_OTA_UPDATER := false
 
 # USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb-service.mediatek-legacy
+#PRODUCT_PACKAGES += \
+#    android.hardware.usb-service.mediatek-legacy
 
 $(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
 
