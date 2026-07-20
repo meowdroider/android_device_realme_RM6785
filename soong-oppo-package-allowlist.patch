@@ -1,0 +1,21 @@
+diff --git a/scripts/check_boot_jars/package_allowed_list.txt b/scripts/check_boot_jars/package_allowed_list.txt
+index f8c8bee2d..27f90056f 100644
+--- a/scripts/check_boot_jars/package_allowed_list.txt
++++ b/scripts/check_boot_jars/package_allowed_list.txt
+@@ -297,6 +297,16 @@ com\.nvidia
+ com\.nvidia\..*
+ 
+ # OPLUS adds
++cn.teddymobile.*
++com.aiunit.*
++com.oplus.*
++com.oppo.*
++oplus.*
++oppo.*
++org.simalliance.openmobileapi.*
++core.java.com.android.*
++com\.color
++com\.color\..*
+ com\.oplus\..*
+ net\.oneplus\..*
+ oplus\..*
